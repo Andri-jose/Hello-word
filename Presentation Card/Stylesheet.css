@@ -1,0 +1,84 @@
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+#content-page {
+    display:grid;
+    grid-template-columns: 10rem 30rem 30rem 10rem;
+    grid-template-rows: 8rem 25rem 8rem;
+    
+}
+
+#content-box1 {
+    display: flex;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    flex-direction: column;
+    background-color: hsl(244, 38%, 16%);
+}
+
+
+h1:first-child {
+    padding: 2rem 3rem 0rem 4rem;
+    font-size: 1.9rem;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+
+span {
+    color: hsl(277, 64%, 61%);
+}
+
+h3:first-child {
+    padding: 0rem 7rem 0rem 4rem;
+    font-size: 0.8rem;
+    color: hsla(0, 0%, 100%, 0.425);
+    font-family: sans-serif;
+    line-height: 18pt;
+}   
+
+.content-ad {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin: 3rem 5.8rem 0rem 2.2rem;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 0rem;
+    background-color: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%)
+}
+
+p{
+    font-size: 0.7rem;
+    margin-top: 0.4rem;
+    background-color: hsl(244, 38%, 16%);
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+#content-img {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background: url(image-desktop.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(112, 0, 160);
+    opacity: 0.5;
+}
+
+/*.attribution {
+    display: inline-block;
+    position: relative;
+}*/
